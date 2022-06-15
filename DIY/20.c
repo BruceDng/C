@@ -1,10 +1,10 @@
-//ÊäÈëÁ½¸öÕýÕûÊýmºÍn£¬ÇóÆä×î´ó¹«Ô¼ÊýºÍ×îÐ¡¹«±¶Êý¡£
+//è¾“å…¥ä¸¤ä¸ªæ­£æ•´æ•°må’Œnï¼Œæ±‚å…¶æœ€å¤§å…¬çº¦æ•°å’Œæœ€å°å…¬å€æ•°ã€‚
 
 #include<stdio.h>
 int main()
 {
     int a,b,t,r,n;
-    printf("ÇëÊäÈëÁ½¸öÊý×Ö£º\n");
+    printf("è¯·è¾“å…¥ä¸¤ä¸ªæ•°å­—ï¼š\n");
     scanf("%d %d",&a,&b);
     if(a<b)
     {t=b;b=a;a=t;}
@@ -16,7 +16,7 @@ int main()
         b=r;
         r=a%b;
     }
-    printf("ÕâÁ½¸öÊýµÄ×î´ó¹«Ô¼ÊýÊÇ%d£¬×îÐ¡¹«±¶ÊýÊÇ%d\n",b,n/b);
+    printf("è¿™ä¸¤ä¸ªæ•°çš„æœ€å¤§å…¬çº¦æ•°æ˜¯%dï¼Œæœ€å°å…¬å€æ•°æ˜¯%d\n",b,n/b);
     
     return 0;
 }
