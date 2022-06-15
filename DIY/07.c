@@ -3,7 +3,7 @@ int main()
 {
 	double i;
 	double bonus1, bonus2, bonus4, bonus6, bonus10, bonus;
-	printf("你的净利润是：\n");
+	printf("浣犵殑鍑�鍒╂鼎鏄細\n");
 	scanf("%lf", &i);
 	bonus1 = 100000 * 0.1;
 	bonus2 = bonus1 + 100000 * 0.075;
@@ -34,6 +34,6 @@ int main()
 	{
 		bonus = bonus10 + (i - 1000000) * 0.01;
 	}
-	printf("提成为：bonus=%lf",bonus);
+	printf("鎻愭垚涓猴細bonus=%lf",bonus);
 	printf("\n");
 }
