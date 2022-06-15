@@ -1,10 +1,10 @@
-//��ӡ¥�ݣ�ͬʱ��¥���Ϸ���ӡ����Ц����
+//打印楼梯，同时在楼梯上方打印两个笑脸。
 #include<stdio.h>
  
 int main()
 {
     int i,j;
-    printf("\1\1\n"); /*�������Ц�� ASCLL 1 ��*/
+    printf("\1\1\n"); /*输出两个笑脸 ASCLL 1 码*/
     for(i=1;i<11;i++)
     {
         for(j=1;j<=i;j++)
