@@ -1,9 +1,9 @@
-//½«Ò»¸öÕýÕûÊý·Ö½âÖÊÒòÊý¡£ÀýÈç£ºÊäÈë90,´òÓ¡³ö90=2*3*3*5¡£
+//å°†ä¸€ä¸ªæ­£æ•´æ•°åˆ†è§£è´¨å› æ•°ã€‚ä¾‹å¦‚ï¼šè¾“å…¥90,æ‰“å°å‡º90=2*3*3*5ã€‚
 #include<stdio.h>
 int main()
 {
     int n,i;
-    printf("ÇëÊäÈëÕûÊý£º");
+    printf("è¯·è¾“å…¥æ•´æ•°ï¼š");
     scanf("%d",&n);
     printf("%d=",n);
     for(i=2;i<=n;i++)
