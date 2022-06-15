@@ -1,4 +1,4 @@
-//Êä³ö9*9¿Ú¾÷
+//è¾“å‡º9*9å£è¯€
 #include<stdio.h>
 int main()
 {
@@ -9,8 +9,8 @@ int main()
         for(j=1;j<=i;j++)
         {
             result=i*j;
-            printf("%d*%d=%-3d",i,j,result); /*-3d±íÊ¾×ó¶ÔÆë£¬Õ¼3Î»*/
+            printf("%d*%d=%-3d",i,j,result); /*-3dè¡¨ç¤ºå·¦å¯¹é½ï¼Œå 3ä½*/
         }
-    printf("\n"); /*Ã¿Ò»ĞĞºó»»ĞĞ*/
+    printf("\n"); /*æ¯ä¸€è¡Œåæ¢è¡Œ*/
     }
 } 
